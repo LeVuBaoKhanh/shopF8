@@ -1,0 +1,123 @@
+@media (max-width: 1023px) {
+  .header {
+    height: 83vh;
+  }
+  .header__navbar-list {
+    margin-top: 20px;
+  }
+  .sidebar {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .sidebar__logo-link {
+    justify-content: space-between;
+    text-decoration: none;
+  }
+  .close-btn {
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .list {
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+  }
+  .sidebar__list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box__content-music {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 56vh;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer-left {
+    flex-basis: unset;
+  }
+  .footer-right {
+    margin-top: 20px;
+  }
+  .footer-middle {
+    margin-top: 20px;
+  }
+  .box__content {
+    padding: 30px 10px !important;
+  }
+  .box__content-music-wrapper {
+    width: 100%;
+    height: 200px;
+  }
+  .sidebar__logo-img {
+    display: none;
+  }
+  .header__list-search-input {
+    display: none;
+  }
+  .header__list-search-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) {
+  .footer-middle {
+    width: 100%;
+  }
+  .footer-middle-bot-progress {
+    width: 250px;
+  }
+  .box__content-music {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 39vh;
+  }
+  .box__content-music-img {
+    height: 100px !important;
+    width: 100px !important;
+  }
+  .header__navbar {
+    display: none !important;
+  }
+  .sidebar {
+    height: 73vh;
+    overflow-y: scroll;
+    padding-bottom: 20vh;
+  }
+  .box__content-music-img {
+    display: none !important;
+  }
+  .header .box__content-music-wrapper {
+    height: 200px !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1112px) {
+  .header {
+    height: 100vh;
+  }
+  .header__middle-avatar {
+    display: block;
+  }
+  .header__middle-btn {
+    display: block;
+  }
+  .footer-left-title {
+    display: none;
+  }
+  .sidebar__logo-img-content {
+    height: 42px;
+    width: 100px;
+    margin-top: 10px;
+    display: block;
+  }
+  .list {
+    display: none;
+  }
+}
